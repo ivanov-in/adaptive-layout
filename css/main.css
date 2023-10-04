@@ -99,4 +99,60 @@ a {
 }
 a:hover {
   color: #D4C17F;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1130px;
+}
+
+.header {
+  min-height: 840px;
+  padding-top: 30px;
+  padding-bottom: 74px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url("../images/header/header-bg.jpg"), lightgray 50%/cover no-repeat;
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu li {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  text-align: center;
+}
+
+.header-text {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  color: #D4C17F;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 121px;
+  align-items: center;
+}
+.header-text__icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.header-info {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
