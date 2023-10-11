@@ -107,6 +107,10 @@ a:hover {
   width: 1130px;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .header {
   min-height: 840px;
   padding-top: 30px;
@@ -148,11 +152,30 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 50%;
+  transform: translate(-20px, 0%);
 }
 
 .header-info {
   font-size: 18px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  text-align: center;
+  gap: 100px;
+}
+.header-info__address, .header-info__phone {
+  position: relative;
+  padding-left: 35px;
+}
+.header-info__address::before, .header-info__phone::before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 0;
+  top: 0;
+}
+.header-info__address::before {
+  background: no-repeat url("../images/header/map-icon.svg");
+}
+.header-info__phone::before {
+  background: no-repeat url("../images/header/phone-icon.svg");
 }/*# sourceMappingURL=main.css.map */
