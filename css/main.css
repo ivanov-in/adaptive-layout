@@ -114,6 +114,13 @@ a:hover {
   text-align: right;
 }
 
+.section-title {
+  font-size: 36px;
+  color: #D4C17F;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
 .header {
   min-height: 840px;
   padding-top: 30px;
@@ -206,4 +213,16 @@ a:hover {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.35;
+}
+
+.cards-container {
+  margin-top: 88px;
+}
+.cards-container .card {
+  position: relative;
+}
+.cards-container .card__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */

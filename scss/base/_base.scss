@@ -29,3 +29,10 @@ a {
 .text-right {
   text-align: right;
 }
+
+.section-title {
+  font-size: 36px;
+  color: $accent;
+  font-weight: 700;
+  font-family: $font-accent;
+}

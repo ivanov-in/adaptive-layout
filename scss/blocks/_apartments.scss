@@ -1,0 +1,23 @@
+.apartments {
+
+}
+
+.cards-container {
+  margin-top: 88px;
+
+  .card {
+    position: relative;
+    // background-image: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%), url('../images/apartments/01.jpg');
+    // background: linear-gradient(180deg, rgba(36, 43, 51, 0.00) 0%, #242B33 100%), lightgray 50% / cover no-repeat;
+
+    &__image {
+
+    }
+
+    &__text {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
